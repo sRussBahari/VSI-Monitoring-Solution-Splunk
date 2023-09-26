@@ -15,6 +15,8 @@ Creation of a monitoring environment for incident response, ensuring the securit
 
 
 ## Screenshots
+![Severity data report](./Severity.png)
+
 
 
 
