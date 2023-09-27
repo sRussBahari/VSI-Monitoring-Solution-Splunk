@@ -21,7 +21,8 @@ Creation of a monitoring environment for incident response, ensuring the securit
 -Apache server
 -Apache server attack logs
 
-After loading the logs of the Windows server both the attack and non attack, there were suspicious changes in severity as the informational severity went from 96% from the normal Windows logs to 79% and the high severity from 6% from the normal Windows logs to 20% within the new file which shows a higher severity.
+After loading the logs of the Windows server both the attack and non attack, there were suspicious changes in severity as the informational severity went from 93% from the normal Windows logs to 79% and the high severity from 6% from the normal Windows logs to 20% within the new file which shows a higher severity.
+![Severity data report](./Severity_normal_logs.png)
 ![Severity data report](./Severity_attack_logs.png)
 
 
