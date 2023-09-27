@@ -15,7 +15,16 @@ Creation of a monitoring environment for incident response, ensuring the securit
 
 
 ## Screenshots
-![Severity data report](./Severity.png)
+4 sets of logs: 
+-Windows server  
+-Windows server attack logs
+-Apache server
+-Apache server attack logs
+
+After loading the logs of the Windows server both the attack and non attack, there were suspicious changes in severity as the informational severity went from 96% from the normal Windows logs to 79% and the high severity from 6% from the normal Windows logs to 20% within the new file which shows a higher severity.
+![Severity data report](./Severity_attack_logs.png)
+
+
 
 
 
