@@ -49,6 +49,10 @@ I) Analysis of Logs and comparison of data from the server before and after an a
 -![Signature Successfully Logged On](./Signature_successfully_logged_normal_logs.png)
 -![Signature Successfully Logged On](./Signature_successfully_logged_attack_logs.png)
 
+5) Principal user that was successfully logged on that many times?
+
+-While going through the tabs on the left side of Splunk we can see different tabs associated to what we are looking for. Therefore, I was able to check the "user" tab and analyze which user was logging in that many times.
+-![User Successfully Logged On](./User_logged_on_attack_logs.png)
 
 
 
