@@ -6,7 +6,7 @@ Date: Aug 2023- Sep 2023
 Creation of a monitoring environment for incident response, ensuring the security of a mock organization (VSI) via Splunk
 
 ## Key Achievements
-1) Analyzed activity logs (Windows and Apache Server logs) to understand what activities are happening within the server as well as selecting a baseline for the organization to detect anything suspicious for any subset of data analyzed ie: severity, signature, IP address etc...
+1) Analyzed activity logs (Windows and Apache Server logs) to understand what activities are happening within the server as well as selecting a baseline for the organization to detect anything suspicious for any subset of data analyzed ie: severity, failed/successful activities, volume, signature, IP address etc...
 
 2) Developed and executed custom alerts/reports/dashboard accodingly to the baseline that was set and those information will directly be reported to the person in charge of the security by email as soon as the baseline exceed the threshold selected. This is very helpful to detect and counter anomalies in real time.
 
@@ -30,8 +30,15 @@ Comparison of data from the server before and after an attack:
 ![Severity data report](./Severity_attack_logs.png)
 
 2) Changes in windows logs for failed activities?
+-The changes in failure went from 2.98% to 1.56% and the successful activities went from 96% to 98% and the informational activities went from 1 to 0. Overall, it is not that suspicious.
 -![Failed/Success activites](./Success_Failed_Activities_normal_logs.png)
 -![Failed/Success activites](./Success_Failed_Activities_attack_logs.png)
+
+3) Changes in windows logs for volume failed activities?
+-We can clearly see the changes of behavior from the screenshot of the volume of failed activities shown in the small green graph.
+-![Volume Failed Activities](./Volume_Failed_Activities_normal_logs.png)
+-![Volume Failed Activities](./Volume_Failed_Activities_attack_logs.png)
+
 
 
 
