@@ -1,12 +1,12 @@
 # Project Title: VSI-Monitoring-Solution-Splunk
-Date: Aug 2023- Sep 2023
+Date: Aug 2023
 
 
 ## Overview
 Creation of a monitoring environment for incident response, ensuring the security of a mock organization (VSI) via Splunk
 
 ## Key Achievements
-I) Analyzed activity logs (Windows and Apache Server logs) to understand what activities are happening within the server as well as selecting a baseline for the organization to detect anything suspicious for any subset of data analyzed ie: severity, failed/successful activities, volume, signature, user, etc...
+I) Analyzed activity logs (Windows Server logs) to understand what activities are happening within the server as well as selecting a baseline for the organization to detect anything suspicious for any subset of data analyzed ie: severity, failed/successful activities, volume, signature, user, etc...
 
 II) Developed and executed custom alerts/reports accordingly to the baseline that was set and those information will directly be reported to the person in charge of the security by email as soon as the baseline exceed the threshold selected. This is very helpful to detect and counter anomalies in real time.
 
@@ -17,12 +17,11 @@ III) Enhanced the monitoring capabilities by integrating a dashboard within the 
 
 
 ## Screenshots
-4 sets of logs:
+2 sets of logs:
 
 -Windows server  
 -Windows server attack logs
--Apache server
--Apache server attack logs
+
 
 I) Analysis of Logs and comparison of data from the server before and after an attack:
 1) Changes in windows logs for severity data?
@@ -62,6 +61,14 @@ II) Custom alert with a specific baseline set to inform the company
 -![Deleted accounts](./Deleted_accounts_normal_logs.png)
 -![Deleted accounts](./Deleted_accounts_attack_logs.png)
 
+III) Dashboard analysis on Splunk with different data collected
 
+7) Creation of a dashboard that permits to visualize multiples data within one screen and make it more user-friendly
+
+-![Dashboard1](./Dashboard1.png)
+-![Dashboard2](./Dashboard2.png)
+-![Dashboard3](./Dashboard3.png)
+-![Dashboard4](./Dashboard4.png)
+-![Dashboard5](./Dashboard5.png)
 
 
